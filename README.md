@@ -9,7 +9,7 @@ This repository contains various models implemented for predicting Alzheimer’s
 - [Competing Models](#competing-models)
 - [Proposed Model](#proposed-model)
 - [Getting Started](#getting-started)
-- [Dataset Split Information](#dataset-dplit-information)
+- [Dataset Split Information](#dataset-split-information)
 - [Contributing](#contributing)
 - [License](#license)
 
