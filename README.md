@@ -1,6 +1,18 @@
-# Alzheimer Disease Prediction
+# DINOv2-KAN: Distillation with No Labels v2 and Kolmogorov-Arnold Network for Enhanced MRI-Based Diagnosis of Alzheimer’s Disease
 
-This repository contains various models implemented for predicting Alzheimer’s disease using MRI images. It includes competing models based on established architectures as well as a proposed hybrid model that combines DINOv2 and Kolmogorov-Arnold Networks (KAN). 
+This repository contains the implementation and resources for **DINOv2-KAN**, a hybrid deep learning framework that combines the DINOv2 Vision Transformer (ViT) and Kolmogorov-Arnold Network (KAN) for MRI-based diagnosis of Alzheimer’s Disease (AD) with high accuracy.
+![Final_Elaborated_Block_Diagram](Images/Final_Elaborated_Block_Diagram.png)
+## Overview
+
+Alzheimer’s Disease (AD) is a progressive neurodegenerative disorder that affects memory and cognition. Early and precise diagnosis is crucial for effective treatment, but traditional approaches often fail to capture subtle changes at different disease stages. **DINOv2-KAN** tackles these diagnostic challenges by integrating:
+- **DINOv2 Vision Transformer (ViT)** to extract detailed feature representations from MRI scans.
+- **Kolmogorov-Arnold Network (KAN)** to transform these features into robust representations for enhanced classification.
+
+This hybrid model is trained with **supervised contrastive learning** to further improve classification accuracy. Extensive experiments on the ADNI, OASIS, and Kaggle datasets demonstrate its superior performance, achieving:
+- **99.11% ± 0.25% accuracy** for Alzheimer’s Disease vs. Non-Cognitively Impaired classification.
+- **99.37% ± 0.40% accuracy** for a four-class classification (AD, Non-Cognitively Impaired, Early Mild Cognitive Impairment, Mild Cognitive Impairment) on the ADNI dataset.
+
+These results, validated on additional datasets, show statistically significant improvements over state-of-the-art methods.
 
 ## Table of Contents
 
@@ -10,7 +22,6 @@ This repository contains various models implemented for predicting Alzheimer’s
 - [Proposed Model](#proposed-model)
 - [Getting Started](#getting-started)
 - [MRI Image Samples](#mri-image-samples)
-- [DINOv2KAN Model Block Diagram](#DINOv2KAN-Model-Block-Diagram)
 - [Dataset Split Information](#dataset-split-information)
 - [CSV File Structure](CSV-File-Structure)
 - [Contributing](#contributing)
@@ -75,10 +86,6 @@ To get started with this repository:
 ## MRI Image Samples
 
 ![Representative_slices](Images/Representative_slices.png)
-
-## DINOv2KAN Model Block Diagram
-
-![Final_Elaborated_Block_Diagram](Images/Final_Elaborated_Block_Diagram.png)
 
 ## Dataset Split Information
 
