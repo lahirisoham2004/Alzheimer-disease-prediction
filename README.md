@@ -94,9 +94,9 @@ To ensure consistent evaluation across experiments, we provide pre-defined five-
 ### CSV File Structure
 Each CSV file contains the following columns:
 
-- **file_name**: The unique identifier or file name of the MRI slice/image.
-- **set**: Specifies whether the file is part of the "train" or "test" set for the given fold.
-- **class**: The class label associated with the file, indicating its condition (e.g., AD, CN, MCI).
+- ADNI Split (adnidataset_split.csv): Includes columns for file_name, class, Number of Slices, and fold_number.
+- Kaggle Split (kaggledataset_split.csv): Includes columns for file_name, set (train/test), and class.
+- OASIS Split (oasisdataset_split.csv): Includes columns for file_name, patient_id, Slices, class, and fold_number.
    
 ## Contributing
 
