@@ -9,6 +9,7 @@ This repository contains various models implemented for predicting Alzheimer’s
 - [Competing Models](#competing-models)
 - [Proposed Model](#proposed-model)
 - [Getting Started](#getting-started)
+- [Dataset Split Information](#dataset-dplit-information)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -30,8 +31,13 @@ Alzheimer-disease-prediction/
 │       ├── VGG16.ipynb
 │       ├── VGG19.ipynb
 │       └── ViTBiLSTM.ipynb
-└── PROPOSED MODEL/
-    └── Dinov2KAN.ipynb
+├── PROPOSED MODEL/
+│   └── Dinov2KAN.ipynb
+└── splits/
+    ├── kaggledataset_split.csv
+    ├── oasisdataset_split.csv
+    └── adnidataset_split.csv
+
 
 ```
 ### Competing Models
@@ -57,6 +63,17 @@ To get started with this repository:
     pip install -r requirements.txt
 3. **Run the notebooks:** 
    Open Jupyter Notebook or JupyterLab, navigate to the desired model's notebook, and execute the cells to train and evaluate the model.
+
+## Dataset Split Information
+
+To ensure consistent evaluation across experiments, we provide pre-defined five-fold splits for each of the datasets used in this study. Each split is stored in a CSV file detailing which files belong to the training or testing sets in each fold.
+
+### CSV File Structure
+Each CSV file contains the following columns:
+
+- **file_name**: The unique identifier or file name of the MRI slice/image.
+- **set**: Specifies whether the file is part of the "train" or "test" set for the given fold.
+- **class**: The class label associated with the file, indicating its condition (e.g., AD, CN, MCI).
    
 ## Contributing
 
