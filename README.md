@@ -9,7 +9,10 @@ This repository contains various models implemented for predicting Alzheimer’s
 - [Competing Models](#competing-models)
 - [Proposed Model](#proposed-model)
 - [Getting Started](#getting-started)
+- [MRI Image Samples](#mri-image-samples)
+- [DINOv2KAN Model Block Diagram](#DINOv2KAN-Model-Block-Diagram)
 - [Dataset Split Information](#dataset-split-information)
+- [CSV File Structure](CSV-File-Structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -33,10 +36,15 @@ Alzheimer-disease-prediction/
 │       └── ViTBiLSTM.ipynb
 ├── PROPOSED MODEL/
 │   └── Dinov2KAN.ipynb
-└── splits/
-    ├── kaggledataset_split.csv
-    ├── oasisdataset_split.csv
-    └── adnidataset_split.csv
+├── Splits/
+│   ├── kaggledataset_split.csv
+│   ├── oasisdataset_split.csv
+│   └── adnidataset_split.csv
+└── Images/
+    └── Representative Slices.png
+    └── Final Elaborated Block Diagram.png
+
+
 
 
 ```
@@ -63,6 +71,14 @@ To get started with this repository:
     pip install -r requirements.txt
 3. **Run the notebooks:** 
    Open Jupyter Notebook or JupyterLab, navigate to the desired model's notebook, and execute the cells to train and evaluate the model.
+
+## MRI Image Samples
+
+![ Representative Slices](Images/ Representative Slices.png)
+
+## DINOv2KAN Model Block Diagram
+
+![Final Elaborated Block Diagram](Images/Final Elaborated Block Diagram.png)
 
 ## Dataset Split Information
 
