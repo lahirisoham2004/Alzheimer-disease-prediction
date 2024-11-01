@@ -41,8 +41,8 @@ Alzheimer-disease-prediction/
 │   ├── oasisdataset_split.csv
 │   └── adnidataset_split.csv
 └── Images/
-    └── Representative Slices.png
-    └── Final Elaborated Block Diagram.png
+    └── Representative_Slices.png
+    └── Final_Elaborated_Block_Diagram.png
 
 
 
@@ -74,11 +74,11 @@ To get started with this repository:
 
 ## MRI Image Samples
 
-![ Representative Slices](Images/ Representative Slices.png)
+![Representative_slices](Images/Representative_slices.png)
 
 ## DINOv2KAN Model Block Diagram
 
-![Final Elaborated Block Diagram](Images/Final Elaborated Block Diagram.png)
+![Final_Elaborated_Block_Diagram](Images/Final_Elaborated_Block_Diagram.png)
 
 ## Dataset Split Information
 
