@@ -22,8 +22,6 @@ These results, validated on additional datasets, show statistically significant 
 - [Proposed Model](#proposed-model)
 - [Getting Started](#getting-started)
 - [MRI Image Samples](#mri-image-samples)
-- [Dataset Split Information](#dataset-split-information)
-- [CSV File Structure](CSV-File-Structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -86,17 +84,6 @@ To get started with this repository:
 ## MRI Image Samples
 
 ![Representative_slices](Images/Representative_slices.png)
-
-## Dataset Split Information
-
-To ensure consistent evaluation across experiments, we provide pre-defined five-fold splits for each of the datasets used in this study. Each split is stored in a CSV file detailing which files belong to the training or testing sets in each fold.
-
-### CSV File Structure
-Each CSV file contains the following columns:
-
-- ADNI Split (adnidataset_split.csv): Includes columns for file_name, class, Number of Slices, and fold_number.
-- Kaggle Split (kaggledataset_split.csv): Includes columns for file_name, set (train/test), and class.
-- OASIS Split (oasisdataset_split.csv): Includes columns for file_name, patient_id, Slices, class, and fold_number.
    
 ## Contributing
 
